@@ -4,6 +4,7 @@ class DriveHomePage extends StatefulWidget {
   const DriveHomePage({super.key});
 
   @override
+
   // ignore: library_private_types_in_public_api
   _DriveHomePageState createState() => _DriveHomePageState();
 }
@@ -89,7 +90,8 @@ class _DriveHomePageState extends State<DriveHomePage> {
         onTap: _onItemTapped,
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
-          BottomNavigationBarItem(icon: Icon(Icons.star_border_outlined), label: 'Starred'),
+          BottomNavigationBarItem(
+              icon: Icon(Icons.star_border_outlined), label: 'Starred'),
           BottomNavigationBarItem(icon: Icon(Icons.group), label: 'Shared'),
           BottomNavigationBarItem(icon: Icon(Icons.folder), label: 'Files'),
         ],
