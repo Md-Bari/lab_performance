@@ -68,7 +68,7 @@ class _DriveHomePageState extends State<DriveHomePage> {
               leading: Icon(Icons.storage),
               title: Text('Storage'),
               subtitle: LinearProgressIndicator(
-                value: 7.44 / 15,
+                value: 10 / 100,
                 backgroundColor: Colors.grey[800],
               ),
             ),
